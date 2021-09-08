@@ -1,0 +1,60 @@
+name: prueba
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  flutter_launcher_icons: ^0.7.4
+  flutter_bloc: ^4.0.0
+  splashscreen: ^1.2.0
+  shared_preferences: 0.5.12+4
+  curved_navigation_bar: ^0.3.4
+  eyro_toast: any
+  sqflite: ^1.3.1+1
+  path_provider: ^1.6.14
+  http: ^0.12.2
+  logger: ^0.9.4
+  connectivity: ^2.0.2
+  flutter_calendar_carousel: ^1.5.3
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  image_path: 'assets/icon/icon.jpg'
+  android: true
+  ios: true
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icon/icon.jpg
+    - assets/icon/almuerzo.png
+    - assets/icon/apple.png
+    - assets/icon/entrega.png
+    - assets/icon/config.png
+    - assets/icon/numero.png
+    - assets/icon/profile.png
+    - assets/icon/auto.png
+    - assets/icon/icon1.png
+    - assets/icon/icon2.png
+    - assets/icon/icon3.png
+    - assets/icon/icon4.png
+    - assets/icon/icon5.png
+    - assets/icon/icon6.png
+    - assets/icon/icon7.png
+    - assets/icon/icon8.png
+
